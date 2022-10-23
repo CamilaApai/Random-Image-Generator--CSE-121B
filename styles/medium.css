@@ -1,0 +1,15 @@
+@media only screen and (min-width: 32.5em) {
+
+    h1 {
+      font-size: 25px; 
+    }
+  
+    #dogimg,
+    #catimg { 
+      width: 250px;
+      height: 250px;
+    }
+  
+}
+  
+ 

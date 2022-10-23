@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Picture Generator</title>
+    <meta name="author" content="Camila Apai">
+    <meta name="description" content="Camila Apai Random Picture Generator, CSE 121B Project ">
+    <link rel="stylesheet" href="styles/normalize.css"> 
+    <link rel="stylesheet" href="styles/base.css"> 
+    <link rel="stylesheet" href="styles/medium.css"> 
+    <link rel="stylesheet" href="styles/large.css"> 
+ </head>
+
+<body>
+    <div id="content">
+        <header>
+            <h1>Random Picture Generator</h1>
+        </header>
+        <main>
+            <div class='images'>
+                <div id='dogimg'></div>
+                <div id='catimg'></div>  
+            </div>
+            <div class='buttons'>
+                <button id='dogButton'>Dog Generator</button> 
+                <button id='catButton'>Cat Generator</button> 
+            </div>
+            <p>
+                <span id="message1"></span>
+            </p>
+        </main>
+        <footer>
+            <hr>
+            <p id="footerinfo">&copy;<span id="currentyear"></span></p>
+        </footer>
+        <script src="/scripts/generator.js"></script>
+    </div>
+</body>
+</html>

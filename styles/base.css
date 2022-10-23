@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    background-color: rgb(230, 181, 198);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: rgb(200, 148, 166);
+}
+
+header,
+footer {
+  padding: 20px;
+  margin: 0px;
+}
+
+h1 {
+   font-size: 20px;
+}
+
+.images, 
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+
+#dogimg, 
+#catimg {
+  background-color: #fff;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+
+#dogimg img, 
+#catimg img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+#dogButton,
+#catButton {
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: rgb(192, 117, 133);
+}
+
+#dogButton:hover, 
+#catButton:hover {
+    font-weight: bold;
+    transition: color .9s ease-in-out, box-shadow .9s ease-in-out;
+    box-shadow: inset 100px 0 0 0 rgb(164, 88, 104);
+}
+
+hr {
+  border: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 40, 0.3);
+  height: 1px;
+}
+
+footer,
+p {
+  font-size: 16px;
+}
